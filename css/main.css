@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 880px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    overflow: auto;
+
+}
+
+.third-width {
+    height: 210px;
+    width: 398px;
+    margin: 0 auto;
+    float: left;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Section */
+
+
+h1 {
+    font-size: 33px;
+    font-weight: 700;
+    float: left;
+    padding-left: 5px;
+}
+
+h1 span,
+li a {
+    color: #77a466;
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.nav-list li {
+    display: inline;
+    /* margin-left: 30px; */
+    padding-left: 30px;
+}
+
+/* Welcome Section */
+
+img {
+    border: 3px solid #77a466;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #77a466;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* More Information Section */
+
+#more-information-section {
+    margin-top: 40px;
+}
+
+h5 {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.third-width ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.card-1 ul li {
+    line-height: 38px;
+}
+
+.card-1,
+.card-3 {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.card-2 {
+    border: 1px solid grey;
+}
+
+
+.card-2 h5,
+.card-2 p,
+.card-3 h5,
+.card-3 p {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
+h4 span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
